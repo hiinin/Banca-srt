@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- INFORMAÇÕES DO SITE -->
+    <title>Banca Santa Rita - </title>
+    <link rel="shortcut icon" href="./_assets/_img/icone.png" type="image/x-icon" />
+
+    <!-- CASCADING STYLE SHEETS -->
+    <link rel="stylesheet" href="./_assets/_css/main-style.css" />
+    <link rel="stylesheet" href="./_assets/_css/index-style.css" />
+
+    <!-- RECURSOS EXTERNOS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  
+  </head>
+  
+  <body onload="toggleDrawerOnLoad()">
+
+    <div id="home-section"></div>
+    <header class="header-container">
+      <div class="header-content">
+        <a href="./index.html">
+          <img src="./_assets/_img/icone.png" 
+          onmouseover="this.src='./_assets/_img/gif.gif'" 
+          onmouseout="this.src='./_assets/_img/icone.png'" alt="Logo da Banca Santa Rita" class="header-logo" />
+        </a>
+
+        <nav class="navbar-container">
+          <div class="navbar-content">
+            <ul>
+              <li><a href="#home-section">Início</a></li>
+              <li><a href="#about-section">Sobre</a></li>
+              <li><a href="#product-section">Produtos</a></li>
+              <li><a href="#service-section">Lançamentos</a></li>
+              <li><a href="#contact-section">Contato</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <main id="main">
+          
+          <span id="toggle-button" class="fa-solid fa-bars"></span>
+
+            <div class="navbar-mobile" id="drawer">
+                <ul id="buttonLinks">
+                  <li><a href="#home-section">Início</a></li>
+                  <li><a href="#about-section">Sobre</a></li>
+                  <li><a href="#product-section">Produtos</a></li>
+                  <li><a href="#service-section">Lançamentos</a></li>
+                  <li><a href="#contact-section">Contato</a></li>
+                </ul>
+            </div>
+
+        </main>
+
+        <div class="user-options-container">
+          <div class="user-options-content">
+            <a href="https://wa.me/5544998424758"><img src="./_assets/_img/_icons/bag-icon.png" alt="Ícone do carrinho de compras" /></a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section-home-container">
+      <div class="section-home-content">
+        <div class="section-home-img">
+          <div class="section-home-text">
+            <h1>Banca Santa Rita</h1>
+          </div>
+        </div>
+        <div class="section-home-button">
+          <a href="#about-section">
+            <button>Conheça nossa História</button>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <main>
+      <section id="about-section" class="section-about-container">
+        <div class="section-about-content">
+          <div class="section-about-sides">
+            <div class="section-about-content-left">
+              <h1>Oque é a Banca Santa Rita?</h1>
+              <br />
+              <p>Fundada em meados de 1960, somos uma empresa que tem como objetivo trazer informações, e conteúdos diretamente da distribuidora, com uma alta gama de produtos a escolha do cliente! </p>
+            </div>
+
+            <div class="section-about-content-right">
+              <img src="./_assets/_img/Banca.png" alt="TESTE" />
+            </div>
+          </div>
+
+          <div class="section-about-button">
+            <a href="#product-section">
+              <button>Conheça nossos Produtos</button>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="product-section" class="section-product-container">
+        <div class="section-product-content">
+          <div class="section-product-text">
+            <h1>Produtos</h1>
+            <br />
+            <p>Nossos produtos são cuidadosamente selecionados e testados para garantir a mais alta qualidade. Trabalhamos apenas com os melhores fornecedores e marcas renomadas, para que você possa ter a tranquilidade de saber que está adquirindo um produto confiável e duradouro.</p>
+          </div>
+
+          <div class="section-product-cards">
+            <a href="#">
+              <div class="section-product-card">
+                <img src="./_assets/_img/_products/livrus.jpg" alt="Imagem da categoria 'Livros'" />
+                  <div class="texto-imagem">
+                    <h2>Livros</h2>
+                  </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="section-product-card">
+                <img src="./_assets/_img/_products/mangas.png" alt="Imagem da categoria 'Manga'" />
+                  <div class="texto-imagem">
+                    <h2>Manga</h2>
+                  </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="section-product-card">
+                <img src="./_assets/_img/_products/marvel.jpg" alt="Imagem da categoria 'quadrinhos'">
+                  <div class="texto-imagem">
+                    <h2>Quadrinhos</h2>
+                  </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="section-product-card">
+                <img src="./_assets/_img/_products/caça.jpg" alt="Imagem da categoria 'Passa-Tempo'">
+                  <div class="texto-imagem">
+                    <h2>Passa-Tempo</h2>
+                  </div>
+              </div>
+            </a>
+
+            <a href="#">
+              <div class="section-product-card">
+                <img src="./_assets/_img/_products/revistas.png" alt="imagem da categoria 'Revistas'">
+                  <div class="texto-imagem">
+                    <h2>Revistas</h2>
+                  </div>
+              </div>
+            </a>
+        </div>
+
+        </div>
+
+        <div class="section-product-button">
+          <a href="#service-section">
+            <button>Conheça nossos Produtos</button>
+          </a>
+        </div>
+      </section>
+
+      <!-- Lançamento - Cascata -->
+
+      <section id="service-section" class="section-service-container">
+        <div class="slider">
+
+          <div class="slides">
+
+            <!--buttoes-->
+
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+
+            <!--Slide imagens-->
+
+            <div class="slide first">
+              <img src="./_assets/_img/_slider/demon(1).png" alt="imagem1">
+            </div>
+
+            <div class="slide">
+              <img src="./_assets/_img/_slider/taylor-vogue.png" alt="imagem2">
+            </div>
+
+            <div class="slide">
+              <img src="./_assets/_img/_slider/mashle.png" alt="imagem3">
+            </div>
+
+            <div class="slide">
+              <img src="./_assets/_img/_slider/kaiju-no-8.png" alt="imagem4">
+            </div>
+
+            <!-- navegador -->
+
+            <div class="navigation-auto">
+
+              <div class="auto-btn1"></div>
+              <div class="auto-btn2"></div>
+              <div class="auto-btn3"></div>
+              <div class="auto-btn4"></div>
+
+            </div>
+
+          </div>
+
+          <div class="manual-navigation">
+
+            <label for="radio1"  class="manual-btn"></label>
+            <label for="radio2"  class="manual-btn"></label>
+            <label for="radio3"  class="manual-btn"></label>
+            <label for="radio4"  class="manual-btn"></label>
+
+          </div>
+          
+        </div>
+
+        <div class="section-service-button">
+          <a href="#contact-section">
+            <button>Entrar em contato</button>
+          </a>
+        </div>
+      </section>
+
+      <section id="contact-section" class="section-contact-container">
+        <div class="section-contact-content">
+          <div class="section-contact-text">
+            <h1>Entre em contato conosco</h1>
+            <p>Se você tiver alguma dúvida, sugestão ou precisar de mais informações, não hesite em entrar em contato conosco. Nossa equipe de suporte terá prazer em ajudar. Preencha o formulário abaixo ou use os detalhes de contato fornecidos para falar conosco diretamente. Aguardamos seu contato!</p>
+          </div>
+
+          <div class="section-contact-form">
+
+            <form action="https://formsubmit.co/tiaguincontafoto@gmail.com" method="POST">
+
+                <input type="text" name="name" placeholder="Nome" />
+                <input type="email" name="email" placeholder="Email" />
+                <textarea name="message" placeholder="Mensagem"></textarea>
+                <button type="submit">Enviar</button>
+
+              
+
+            </form>
+          </div>
+        </div>
+
+        <div class="contato-online">
+          <a href="https://www.instagram.com/santaritabanca/" target="_blank"> 
+
+            <img src="./_assets/_img/_icons/instagram.png" alt="instagram">
+
+          </a>
+          
+          <a href="https://wa.me/5544998424758" target="_blank">
+            <img src="./_assets/_img/_icons/whatsapp.png" alt="whatsapp">
+          </a>  
+
+          <a href="https://www.google.com.br/maps/place/Banca+Santa+Rita/@-23.4231937,-51.9282697,15z/data=!4m6!3m5!1s0x94ecd720d69c7af1:0x4e6c03671b1c483d!8m2!3d-23.4231523!4d-51.9530762!16s%2Fg%2F11jx4slbk8?entry=ttu" alt="Maps" target="_blank">
+            <img src="./_assets/_img/_icons/google-maps.png" alt="Google-Maps">
+            
+          </a>
+
+        </div>        
+
+      </section>
+
+      <footer class="footer-container">
+        <div class="footer-content">
+          <p class="text-center">&copy; 2024 Banca Santa Rita. Todos os direitos reservados.</p>
+        </div>
+      </footer>
+    </main>
+    <script src="./_assets/_js/appMain.js"></script>
+
+  </body>
+</html>

@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+
+/*** CONFIGURAÇÕES GERAIS DO WEBSITE - CONFIGURAÇÃO DE VARIÁVEIS ***/
+:root {
+  --white-smoke-color: #f5f5f5;
+  --jet-black-color: #11a135;
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --royal-blue-color: #11a135;
+  --dark-navy-blue-color: #0b6622;
+
+  --box-shadow-color: #00000033;
+}
+
+/*** CONFIGURAÇÕES GERAIS DO WEBSITE - CASCADING STYLE SHEETS ***/
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  background-color: var(--white-smoke-color);
+}
